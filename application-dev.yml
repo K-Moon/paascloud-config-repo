@@ -3,6 +3,7 @@ server:
     uri-encoding: UTF-8
     remote-ip-header: x-forwarded-for
   use-forward-headers: true
+  #testgit
 
 management:
   security:
@@ -19,7 +20,7 @@ spring:
     password: guest
   redis:
     host: paascloud-db-redis
-#    password:
+#    password:#
     port: 6379
     timeout: 0
   datasource:
